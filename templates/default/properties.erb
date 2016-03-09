@@ -2,4 +2,9 @@
 #
 # Licensed under Apache 2.0 - see the LICENSE file
 
+# extensions
+druid.extensions.coordinates=["io.druid.extensions:mysql-metadata-storage"]
+# "io.druid.extensions:druid-kafka-eight:0.8.0" ]
+# "io.druid.extensions:druid-hdfs-storage", 
+
 <%= @properties.map {|k, v| sprintf("%s=%s",k,v) }.join("\n") %>

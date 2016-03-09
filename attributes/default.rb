@@ -4,9 +4,9 @@
 
 
 # Downloading
-default[:druid][:version] = "0.6.105"
+default[:druid][:version] = "0.8.0"
 default[:druid][:mirror] = "http://static.druid.io/artifacts/releases"
-default[:druid][:checksum] = "eaa676ea2313f2b99ac84709f449e9b1714c1cf06460c6e476c6ec6cd21e6e7e"
+default[:druid][:checksum] = "b49e1d5e354b44b50ce309910935c681b14466031988d4721459e87aceab913d"
 
 # Installation
 default[:druid][:user] = "druid"
@@ -32,6 +32,6 @@ default[:druid][:indexer][:properties]["druid.port"] = 8085
 default[:druid][:middleManager][:properties]["druid.port"] = 8086
 
 # Other
-default['java']['jdk_version'] = '7'
+default['java']['jdk_version'] = '8'
 
 

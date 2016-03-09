@@ -27,3 +27,6 @@ post-start script
     tries=$((tries + 1))
   done
 end script
+
+# Don't respawn too fast.
+post-stop exec sleep 5
